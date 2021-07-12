@@ -1,0 +1,63 @@
+body {
+  color: rgb(146, 145, 145);
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: rgb(71, 71, 71);
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(71, 71, 71);
+  font-size: 40px;
+}
+
+footer {
+  font-size: 10px;
+  font-weight: 100;
+  padding: 20px 0 10px;
+  font-style: italic;
+}
+
+small {
+  font-size: 15px;
+  position: relative;
+  bottom: 18px;
+}
+.container {
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 15px;
+}
+.card.body {
+  border-radius: 15px;
+}
+.today-now {
+  margin-bottom: 10px;
+}
+
+.emoji-weather-now {
+  font-size: 50px;
+  position: relative;
+  left: 15px;
+  bottom: -5px;
+}
+.cloud {
+  color: #c0c5cd;
+  transition: all 200ms ease-in-out;
+}
+.cloud:hover {
+  color: rgb(82, 78, 105);
+}
+
+.card-paragraph {
+  background: rgb(252, 230, 223);
+}
+.new-city {
+  color: rgb(60, 60, 60);
+  font-size: 12px;
+  font-weight: 100;
+}
